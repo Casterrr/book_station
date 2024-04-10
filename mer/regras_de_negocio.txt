@@ -1,0 +1,25 @@
+Objetivo do sistema:
+
+Controlar o fluxo de livros em um biblioteca, cadastrar, emprestar e devolver
+livros, assim como cadastrar leitores.
+
+Partes interessadas:
+	Biblioteca: Funcionários
+	Usuários: Leitores e frequentadores da biblioteca
+
+Regras de negócio
+
+	1 - Só poderá existir um título de livro para o mesmo autor
+	RECOMENDAÇÃO: titulo, id_autor (pk composta)
+
+	2 - Um livro não pode ser emprestado se a quantidade de livros não for 	igual ou menor que o pedido
+
+	3 - Não será possivel fazer emprestimos se o usuário tiver dívidas
+
+	4 - O usuário não poderá ter mais de três empréstimos ativos
+
+	5 - Só pode haver uma usuário com o mesmo CPF
+
+	6 - Somente existirá uma editora com o mesmo nome
+
+	7 - Só pode haver um e-mail por usuário
