@@ -20,25 +20,25 @@ import java.time.LocalDateTime;
 public class Usuario {
 
     @Id
-    @Column(nullable = false)
+    @Column(name = "ID_USUARIO", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer idUsuario;
 
     @Column(name = "NOME_USUARIO", nullable = false, length = 100)
-    private String nome;
+    private String nomeUsuario;
 
     @Column(name = "ENDERECO_USUARIO", nullable = false, length = 255)
-    private String endereco;
+    private String enderecoUsuario;
 
     @Column(name = "CPF", nullable = false, length = 11)
-    private String cpf;
+    private String cpfUsuario;
 
     @Column(name = "EMAIL", nullable = false, length = 40)
-    private String email;
+    private String emailUsuario;
 
     @Column(name = "TELEFONE_USUARIO", nullable = false, length = 20)
-    private String telefone;
+    private String telefoneUsuario;
 
     @Column(name = "DTH_CADASTRO_USUARIO", nullable = false)
-    private LocalDateTime dataCadastro;
+    private LocalDateTime dataCadastroUsuario;
 }
