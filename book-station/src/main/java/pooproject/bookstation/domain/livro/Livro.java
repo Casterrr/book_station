@@ -5,9 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import pooproject.bookstation.domain.autor.Autor;
-import pooproject.bookstation.domain.editora.Editora;
-import pooproject.bookstation.domain.genero.Genero;
+import pooproject.bookstation.domain.item.Item;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -27,20 +25,9 @@ public class Livro {
     @Column(name = "ID_LIVRO", nullable = false)
     private Integer idLivro;
 
-    @ManyToOne
-    @JoinColumn(name = "ID_EDITORA")
-    private Editora editora;
-
-    @ManyToOne
-    @JoinColumn(name = "ID_AUTOR")
-    private Autor autor;
-
-    @ManyToOne
-    @JoinColumn(name = "ID_GENERO")
-    private Genero genero;
-
-    @Column(name = "TITULO", nullable = false, length = 255)
-    private String titulo;
+    @OneToOne
+    @JoinColumn(name = "ID_ITEM", nullable = false)
+    private Item item;
 
     @Column(name = "NUM_ISBN", nullable = false, length = 20)
     private String numISBN;
@@ -57,14 +44,6 @@ public class Livro {
     @Column(name = "IDIOMA", nullable = false, length = 50)
     private String idioma;
 
-    @Column(name = "QTD_DISPONIVEL", nullable = false)
-    private Integer quantidadeDisponivel;
-
-    @Column(name = "IND_DISPONIVEL", length = 1)
-    private String disponivel;
-
     @Column(name = "DTH_CADASTRO_LIVRO", nullable = false)
     private LocalDateTime dataCadastroLivro;
-
-    // Getters and setters
 }

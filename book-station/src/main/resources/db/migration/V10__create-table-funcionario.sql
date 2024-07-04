@@ -6,5 +6,8 @@ CREATE TABLE TB_FUNCIONARIO
    VLR_SALARIO          DECIMAL(10,2)                                   NOT NULL,
    NUM_CTPS             VARCHAR(11)                                     NOT NULL,
    DAT_ADMISSAO         TIMESTAMP  DEFAULT CURRENT_TIMESTAMP            NOT NULL,
+   ENDERECO_FUNCIONARIO VARCHAR(255)                                    NOT NULL,
+   CPF_FUNCIONARIO      VARCHAR(11)                                     NOT NULL,
+   TELEFONE_FUNCIONARIO VARCHAR(20)                                     NOT NULL,
    CONSTRAINT FK_TB_FUNCIONARIO_TB_USUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID_USUARIO) ON DELETE RESTRICT ON UPDATE CASCADE
 );

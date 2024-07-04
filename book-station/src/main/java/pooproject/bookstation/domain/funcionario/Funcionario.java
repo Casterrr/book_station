@@ -12,10 +12,8 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "TB_FUNCIONARIO")
-// Cria os getters e setters automaticamente
 @Getter
 @Setter
-// Cria um construtor com todos os parâmetros e um sem parâmetros
 @AllArgsConstructor
 @NoArgsConstructor
 public class Funcionario {
@@ -41,5 +39,12 @@ public class Funcionario {
     @Column(name = "DAT_ADMISSAO", nullable = false)
     private LocalDateTime dataAdmissao;
 
-    // Getters and setters
+    @Column(name = "ENDERECO_FUNCIONARIO", nullable = false, length = 255)
+    private String enderecoFuncionario;
+
+    @Column(name = "CPF_FUNCIONARIO", nullable = false, length = 11)
+    private String cpfFuncionario;
+
+    @Column(name = "TELEFONE_FUNCIONARIO", nullable = false, length = 20)
+    private String telefoneFuncionario;
 }
