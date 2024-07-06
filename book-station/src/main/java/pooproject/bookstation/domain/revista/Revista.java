@@ -21,12 +21,21 @@ public class Revista {
     private Integer idRevista;
 
     @OneToOne
-    @JoinColumn(name = "ID_ITEM", nullable = false)
+    @JoinColumn(name = "ID_ITEM")
     private Item item;
 
     @Column(name = "ISSN", nullable = false, length = 20)
     private String issn;
 
-    @Column(name = "FREQUENCIA_PUBLICACAO", length = 50)
+    @Column(name = "FREQUENCIA_PUBLICACAO", nullable = false, length = 50)
     private String frequenciaPublicacao;
+
+    @Column(name = "NUM_EDICAO", nullable = false)
+    private Integer numEdicao;
+
+    @Column(name = "VOLUME", nullable = false)
+    private Integer volume;
+
+    @Column(name = "DESCRICAO", length = 200)
+    private String descricao;
 }

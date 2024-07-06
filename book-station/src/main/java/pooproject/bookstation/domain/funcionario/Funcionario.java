@@ -8,7 +8,7 @@ import lombok.Setter;
 import pooproject.bookstation.domain.usuario.Usuario;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "TB_FUNCIONARIO")
@@ -37,14 +37,5 @@ public class Funcionario {
     private String numeroCTPS;
 
     @Column(name = "DAT_ADMISSAO", nullable = false)
-    private LocalDateTime dataAdmissao;
-
-    @Column(name = "ENDERECO_FUNCIONARIO", nullable = false, length = 255)
-    private String enderecoFuncionario;
-
-    @Column(name = "CPF_FUNCIONARIO", nullable = false, length = 11)
-    private String cpfFuncionario;
-
-    @Column(name = "TELEFONE_FUNCIONARIO", nullable = false, length = 20)
-    private String telefoneFuncionario;
+    private LocalDate dataAdmissao;
 }

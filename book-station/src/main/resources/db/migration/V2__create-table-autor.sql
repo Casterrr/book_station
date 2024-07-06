@@ -1,8 +1,9 @@
-create table TB_AUTOR
+CREATE TABLE TB_AUTOR
 (
-   ID_AUTOR             INTEGER NOT NULL PRIMARY KEY IDENTITY,
-   NOME_AUTOR           VARCHAR(255)                          not null,
-   DAT_NASCIMENTO       DATE                                  not null,
+   ID_AUTOR             INTEGER              NOT NULL,
+   NOME_AUTOR           VARCHAR(255)         NOT NULL,
+   DAT_NASCIMENTO       DATE                 NOT NULL,
    BIOGRAFIA            VARCHAR(255),
-   DTH_CADASTRO_AUTOR   TIMESTAMP DEFAULT CURRENT_TIMESTAMP   not null,
+   DTH_CADASTRO_AUTOR   TIMESTAMP            NOT NULL,
+   CONSTRAINT PK_TB_AUTOR PRIMARY KEY (ID_AUTOR)
 );

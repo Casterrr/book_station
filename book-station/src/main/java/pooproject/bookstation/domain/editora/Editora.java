@@ -10,10 +10,8 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "TB_EDITORA")
-// Cria os getters e setters automaticamente
 @Getter
 @Setter
-// Cria um construtor com todos os parâmetros e um sem parâmetros
 @AllArgsConstructor
 @NoArgsConstructor
 public class Editora {
@@ -35,5 +33,5 @@ public class Editora {
     @Column(name = "DTH_CADASTRO_EDITORA", nullable = false)
     private LocalDateTime dataCadastroEditora;
 
-    // Getters and setters
+    // Os getters e setters são gerados automaticamente pelo Lombok
 }
