@@ -1,260 +1,288 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="339mm" xmlns="http://www.w3.org/2000/svg" height="134mm" version="1.1" viewBox="0 0 1283 508" xmlns:xlink="http://www.w3.org/1999/xlink">
-   <polyline fill="none" points="947,208 1020,208" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="1020,208 1006,211 1006,205" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="947,325 1020,325" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="1020,325 1006,328 1006,322" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="807,366 807,447" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="807,447 804,433 810,433" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="615,201 676,201" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="676,201 663,204 663,198" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="353,231 269,231" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="269,231 282,228 282,234" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="484,62 484,158" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="484,158 481,145 487,145" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="136,159 136,206" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="136,206 133,192 139,192" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="364,290 269,290" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="269,290 282,287 282,293" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="561,321 676,321" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="676,321 663,324 663,318" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="147,74 147,30 374,30" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="374,30 360,33 360,27" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <polyline fill="none" points="135,389 135,316" stroke="#0080c0" stroke-width="1"/>
-   <polygon fill="#0080c0" points="135,316 138,329 132,329" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
-   <rect x="676" y="178" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+<svg width="349mm" xmlns="http://www.w3.org/2000/svg" height="134mm" version="1.1" viewBox="0 0 1322 509" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <polyline fill="none" points="350,222 269,222" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="269,222 282,219 282,225" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="364,282 269,282" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="269,282 282,279 282,285" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="135,150 135,208" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="135,208 132,194 138,194" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="135,383 135,293" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="135,293 138,306 132,306" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="625,175 723,175" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="723,175 709,178 709,172" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="561,313 723,313" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="723,313 709,316 709,310" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="951,178 1058,178" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="1058,178 1045,181 1045,175" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="951,287 1059,287" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="1059,287 1045,290 1045,284" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="845,166 845,61" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="845,61 848,74 842,74" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="749,394 749,328" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="749,328 752,341 746,341" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="858,397 858,362 860,362 860,328" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="860,328 863,341 857,341" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <rect x="595" y="394" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="676" y="178" fill="url(#Gradient1)" width="271" height="188" stroke="#0080c0" stroke-width="1"/>
-   <text x="811" y="189" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_LIVRO</text>
-   <line x1="676" x2="947" y1="195" y2="195" stroke="#0080c0" stroke-width="1"/>
-   <text x="681" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_LIVRO</text>
-   <text x="681" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_EDITORA</text>
-   <text x="681" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_AUTOR</text>
-   <text x="681" y="243" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_GENERO</text>
-   <text x="681" y="256" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TITULO</text>
-   <text x="681" y="269" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_ISBN</text>
-   <text x="681" y="282" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_PUBLICACAO_LIVIRO</text>
-   <text x="681" y="295" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">SINOPSE</text>
-   <text x="681" y="308" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_PAGINAS</text>
-   <text x="681" y="321" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IDIOMA</text>
-   <text x="681" y="334" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">QTD_DISPONIVEL</text>
-   <text x="681" y="347" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IND_DISPONIVEL</text>
-   <text x="681" y="360" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_LIVRO</text>
-   <text x="822" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="822" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="822" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="822" y="243" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="822" y="256" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
-   <text x="822" y="269" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
-   <text x="822" y="282" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
-   <text x="822" y="295" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(4000)</text>
-   <text x="822" y="308" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="822" y="321" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(50)</text>
-   <text x="822" y="334" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="822" y="347" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(1)</text>
-   <text x="822" y="360" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
-   <text x="915" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <text x="915" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
-   <text x="915" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
-   <text x="915" y="243" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk3&gt;</text>
-   <rect x="1020" y="165" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="595" y="394" fill="url(#Gradient1)" width="189" height="85" stroke="#0080c0" stroke-width="1"/>
+   <text x="689" y="405" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_LIVRO</text>
+   <line x1="595" x2="784" y1="411" y2="411" stroke="#0080c0" stroke-width="1"/>
+   <text x="600" y="420" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_LIVRO</text>
+   <text x="600" y="433" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_ITEM</text>
+   <text x="600" y="446" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_ISBN</text>
+   <text x="600" y="459" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">SINOPSE</text>
+   <text x="600" y="472" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IDIOMA</text>
+   <text x="661" y="420" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="661" y="433" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="661" y="446" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
+   <text x="661" y="459" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(4000)</text>
+   <text x="661" y="472" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(50)</text>
+   <text x="754" y="420" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="754" y="433" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk&gt;</text>
+   <rect x="1058" y="119" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="1020" y="165" fill="url(#Gradient2)" width="261" height="85" stroke="#0080c0" stroke-width="1"/>
-   <text x="1150" y="176" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_EDITORA</text>
-   <line x1="1020" x2="1281" y1="182" y2="182" stroke="#0080c0" stroke-width="1"/>
-   <text x="1024" y="191" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_EDITORA</text>
-   <text x="1024" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_EDITORA</text>
-   <text x="1024" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ENDERECO_EDITORA</text>
-   <text x="1024" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TELEFONE_EDITORA</text>
-   <text x="1024" y="243" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_EDITORA</text>
-   <text x="1168" y="191" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="1168" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(100)</text>
-   <text x="1168" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
-   <text x="1168" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
-   <text x="1168" y="243" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="1255" y="191" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <rect x="1020" y="283" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="1058" y="119" fill="url(#Gradient2)" width="262" height="85" stroke="#0080c0" stroke-width="1"/>
+   <text x="1189" y="130" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_EDITORA</text>
+   <line x1="1058" x2="1320" y1="136" y2="136" stroke="#0080c0" stroke-width="1"/>
+   <text x="1063" y="145" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_EDITORA</text>
+   <text x="1063" y="158" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_EDITORA</text>
+   <text x="1063" y="171" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ENDERECO_EDITORA</text>
+   <text x="1063" y="184" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TELEFONE_EDITORA</text>
+   <text x="1063" y="197" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_EDITORA</text>
+   <text x="1207" y="145" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="1207" y="158" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(100)</text>
+   <text x="1207" y="171" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="1207" y="184" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="1207" y="197" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="1294" y="145" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1059" y="243" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="1020" y="283" fill="url(#Gradient3)" width="255" height="84" stroke="#0080c0" stroke-width="1"/>
-   <text x="1147" y="294" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_AUTOR</text>
-   <line x1="1020" x2="1275" y1="300" y2="300" stroke="#0080c0" stroke-width="1"/>
-   <text x="1024" y="309" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_AUTOR</text>
-   <text x="1024" y="322" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_AUTOR</text>
-   <text x="1024" y="335" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_NASCIMENTO</text>
-   <text x="1024" y="348" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">BIOGRAFIA</text>
-   <text x="1024" y="361" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_AUTOR</text>
-   <text x="1158" y="309" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="1158" y="322" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
-   <text x="1158" y="335" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
-   <text x="1158" y="348" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
-   <text x="1158" y="361" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="1245" y="309" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <rect x="677" y="447" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="1059" y="243" fill="url(#Gradient3)" width="255" height="85" stroke="#0080c0" stroke-width="1"/>
+   <text x="1186" y="254" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_AUTOR</text>
+   <line x1="1059" x2="1314" y1="260" y2="260" stroke="#0080c0" stroke-width="1"/>
+   <text x="1063" y="269" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_AUTOR</text>
+   <text x="1063" y="282" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_AUTOR</text>
+   <text x="1063" y="295" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_NASCIMENTO</text>
+   <text x="1063" y="308" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">BIOGRAFIA</text>
+   <text x="1063" y="321" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_AUTOR</text>
+   <text x="1197" y="269" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="1197" y="282" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="1197" y="295" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
+   <text x="1197" y="308" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="1197" y="321" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="1284" y="269" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="715" y="2" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="677" y="447" fill="url(#Gradient4)" width="259" height="59" stroke="#0080c0" stroke-width="1"/>
-   <text x="806" y="458" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_GENERO</text>
-   <line x1="677" x2="936" y1="464" y2="464" stroke="#0080c0" stroke-width="1"/>
-   <text x="682" y="473" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_GENERO</text>
-   <text x="682" y="486" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_GENERO</text>
-   <text x="682" y="499" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_GENERO</text>
-   <text x="824" y="473" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="824" y="486" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
-   <text x="824" y="499" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="905" y="473" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <rect x="2" y="206" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="715" y="2" fill="url(#Gradient4)" width="259" height="59" stroke="#0080c0" stroke-width="1"/>
+   <text x="844" y="13" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_GENERO</text>
+   <line x1="715" x2="974" y1="19" y2="19" stroke="#0080c0" stroke-width="1"/>
+   <text x="720" y="28" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_GENERO</text>
+   <text x="720" y="41" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_GENERO</text>
+   <text x="720" y="54" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_GENERO</text>
+   <text x="862" y="28" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="862" y="41" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
+   <text x="862" y="54" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="943" y="28" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="2" y="208" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="2" y="206" fill="url(#Gradient5)" width="267" height="110" stroke="#0080c0" stroke-width="1"/>
-   <text x="135" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_USUARIO</text>
-   <line x1="2" x2="269" y1="223" y2="223" stroke="#0080c0" stroke-width="1"/>
-   <text x="7" y="232" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_USUARIO</text>
-   <text x="7" y="245" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_USUARIO</text>
-   <text x="7" y="258" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ENDERECO_USUARIO</text>
-   <text x="7" y="271" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">CPF</text>
-   <text x="7" y="284" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">EMAIL</text>
-   <text x="7" y="297" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TELEFONE_USUARIO</text>
-   <text x="7" y="310" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_USUARIO</text>
-   <text x="151" y="232" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="151" y="245" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARHCAR2(100)</text>
-   <text x="151" y="258" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
-   <text x="151" y="271" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(11)</text>
-   <text x="151" y="284" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(40)</text>
-   <text x="151" y="297" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
-   <text x="151" y="310" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="238" y="232" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <rect x="353" y="158" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="2" y="208" fill="url(#Gradient5)" width="267" height="85" stroke="#0080c0" stroke-width="1"/>
+   <text x="135" y="219" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_USUARIO</text>
+   <line x1="2" x2="269" y1="225" y2="225" stroke="#0080c0" stroke-width="1"/>
+   <text x="7" y="234" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_USUARIO</text>
+   <text x="7" y="247" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NOME_USUARIO</text>
+   <text x="7" y="260" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">EMAIL</text>
+   <text x="7" y="273" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">SENHA_USUARIO</text>
+   <text x="7" y="286" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO_USUARIO</text>
+   <text x="151" y="234" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="151" y="247" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARHCAR2(100)</text>
+   <text x="151" y="260" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(40)</text>
+   <text x="151" y="273" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="151" y="286" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="238" y="234" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="350" y="113" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="353" y="158" fill="url(#Gradient6)" width="262" height="85" stroke="#0080c0" stroke-width="1"/>
-   <text x="484" y="169" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_EMPRESTIMO</text>
-   <line x1="353" x2="615" y1="175" y2="175" stroke="#0080c0" stroke-width="1"/>
-   <text x="358" y="184" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_EMPRESTIMO</text>
-   <text x="358" y="197" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_LIVRO</text>
-   <text x="358" y="210" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
-   <text x="358" y="223" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_EMPRESTIMO</text>
-   <text x="358" y="236" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_DEVOLUCAO_PREVISTA</text>
-   <text x="515" y="184" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="515" y="197" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="515" y="210" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="515" y="223" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="515" y="236" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
-   <text x="586" y="184" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <text x="586" y="197" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
-   <text x="586" y="210" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
-   <rect x="374" y="2" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="350" y="113" fill="url(#Gradient6)" width="275" height="124" stroke="#0080c0" stroke-width="1"/>
+   <text x="487" y="124" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_EMPRESTIMO</text>
+   <line x1="350" x2="625" y1="130" y2="130" stroke="#0080c0" stroke-width="1"/>
+   <text x="354" y="139" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_EMPRESTIMO</text>
+   <text x="354" y="152" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
+   <text x="354" y="165" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_ITEM</text>
+   <text x="354" y="178" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_EMPRESTIMO</text>
+   <text x="354" y="191" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_DEVOLUCAO_PREVISTA</text>
+   <text x="354" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_DEVOLUCAO_REAL</text>
+   <text x="354" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VALOR_MULTA</text>
+   <text x="354" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_MULTA</text>
+   <text x="511" y="139" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="511" y="152" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="511" y="165" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="511" y="178" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="511" y="191" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
+   <text x="511" y="204" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
+   <text x="511" y="217" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DECIMAL(10,2)</text>
+   <text x="511" y="230" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="592" y="139" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="592" y="152" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
+   <text x="592" y="165" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
+   <rect x="364" y="268" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient7" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="374" y="2" fill="url(#Gradient7)" width="201" height="60" stroke="#0080c0" stroke-width="1"/>
-   <text x="474" y="13" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_DEVOLUCAO</text>
-   <line x1="374" x2="575" y1="19" y2="19" stroke="#0080c0" stroke-width="1"/>
-   <text x="378" y="28" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_DEVOLUCAO</text>
-   <text x="378" y="41" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_EMPRESTIMO</text>
-   <text x="378" y="54" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_DEVOLUCAO</text>
-   <text x="477" y="28" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="477" y="41" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="477" y="54" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="548" y="28" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <text x="548" y="41" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk&gt;</text>
-   <rect x="42" y="74" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="364" y="268" fill="url(#Gradient7)" width="197" height="84" stroke="#0080c0" stroke-width="1"/>
+   <text x="462" y="279" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_RESERVA</text>
+   <line x1="364" x2="561" y1="285" y2="285" stroke="#0080c0" stroke-width="1"/>
+   <text x="368" y="294" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_RESERVA</text>
+   <text x="368" y="307" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
+   <text x="368" y="319" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_ITEM</text>
+   <text x="368" y="332" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IND_ATENDIDA</text>
+   <text x="368" y="345" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_RESERVA</text>
+   <text x="452" y="294" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="452" y="307" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="452" y="319" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="452" y="332" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(1)</text>
+   <text x="452" y="345" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="527" y="294" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="527" y="307" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
+   <text x="527" y="319" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
+   <rect x="25" y="53" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient8" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="42" y="74" fill="url(#Gradient8)" width="211" height="85" stroke="#0080c0" stroke-width="1"/>
-   <text x="147" y="85" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_MULTA</text>
-   <line x1="42" x2="253" y1="91" y2="91" stroke="#0080c0" stroke-width="1"/>
-   <text x="47" y="100" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
-   <text x="47" y="113" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_DEVOLUCAO</text>
-   <text x="47" y="126" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_MULTA</text>
-   <text x="47" y="139" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VALOR_MULTA</text>
-   <text x="47" y="152" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_APLICACAO</text>
-   <text x="141" y="100" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="141" y="113" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="141" y="126" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="141" y="139" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DECIMAL(10,2)</text>
-   <text x="141" y="152" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="222" y="100" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
-   <text x="222" y="113" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
-   <rect x="364" y="278" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="25" y="53" fill="url(#Gradient8)" width="211" height="97" stroke="#0080c0" stroke-width="1"/>
+   <text x="130" y="64" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_FUNCIONARIO</text>
+   <line x1="25" x2="236" y1="70" y2="70" stroke="#0080c0" stroke-width="1"/>
+   <text x="30" y="79" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_FUNCIONARIO</text>
+   <text x="30" y="92" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
+   <text x="30" y="105" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DSC_CARGO</text>
+   <text x="30" y="118" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VLR_SALARIO</text>
+   <text x="30" y="131" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_CTPS</text>
+   <text x="30" y="144" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_ADMISSAO</text>
+   <text x="124" y="79" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="124" y="92" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="124" y="105" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(50)</text>
+   <text x="124" y="118" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DECIMAL(10,2)</text>
+   <text x="124" y="131" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(11)</text>
+   <text x="124" y="144" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DATE</text>
+   <text x="205" y="79" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="205" y="92" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk&gt;</text>
+   <rect x="12" y="383" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient9" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="364" y="278" fill="url(#Gradient9)" width="197" height="85" stroke="#0080c0" stroke-width="1"/>
-   <text x="462" y="289" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_RESERVA</text>
-   <line x1="364" x2="561" y1="295" y2="295" stroke="#0080c0" stroke-width="1"/>
-   <text x="368" y="304" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_RESERVA</text>
-   <text x="368" y="317" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
-   <text x="368" y="330" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_LIVRO</text>
-   <text x="368" y="343" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IND_ATENDIDA</text>
-   <text x="368" y="356" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_RESERVA</text>
-   <text x="452" y="304" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="452" y="317" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="452" y="330" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="452" y="343" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(1)</text>
-   <text x="452" y="356" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="527" y="304" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <text x="527" y="317" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
-   <text x="527" y="330" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
-   <rect x="24" y="389" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <rect x="12" y="383" fill="url(#Gradient9)" width="254" height="85" stroke="#0080c0" stroke-width="1"/>
+   <text x="139" y="394" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_LOCATARIO</text>
+   <line x1="12" x2="266" y1="400" y2="400" stroke="#0080c0" stroke-width="1"/>
+   <text x="17" y="409" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_LOCATARIO</text>
+   <text x="17" y="422" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
+   <text x="17" y="435" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ENDERECO_LOCATARIO</text>
+   <text x="17" y="448" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">CPF_LOCATARIO</text>
+   <text x="17" y="461" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TELEFONE_LOCATARIO</text>
+   <text x="148" y="409" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="148" y="422" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="148" y="435" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="148" y="448" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(11)</text>
+   <text x="148" y="461" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
+   <text x="235" y="409" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="235" y="422" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk&gt;</text>
+   <rect x="723" y="166" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
    <defs>
       <linearGradient id="Gradient10" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
          <stop offset="5%" stop-color="#ffffff"/>
          <stop offset="95%" stop-color="#b2d6fc"/>
       </linearGradient>
    </defs>
-   <rect x="24" y="389" fill="url(#Gradient10)" width="211" height="97" stroke="#0080c0" stroke-width="1"/>
-   <text x="129" y="400" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_FUNCIONARIO</text>
-   <line x1="24" x2="235" y1="406" y2="406" stroke="#0080c0" stroke-width="1"/>
-   <text x="29" y="415" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_FUNCIONARIO</text>
-   <text x="29" y="428" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_USUARIO</text>
-   <text x="29" y="441" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DSC_CARGO</text>
-   <text x="29" y="454" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VLR_SALARIO</text>
-   <text x="29" y="467" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_CTPS</text>
-   <text x="29" y="480" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DAT_ADMISSAO</text>
-   <text x="123" y="415" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
-   <text x="123" y="428" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
-   <text x="123" y="441" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(50)</text>
-   <text x="123" y="454" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DECIMAL(10,2)</text>
-   <text x="123" y="467" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(11)</text>
-   <text x="123" y="480" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
-   <text x="204" y="415" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
-   <text x="204" y="428" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk&gt;</text>
+   <rect x="723" y="166" fill="url(#Gradient10)" width="228" height="162" stroke="#0080c0" stroke-width="1"/>
+   <text x="837" y="177" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_ITEM</text>
+   <line x1="723" x2="951" y1="183" y2="183" stroke="#0080c0" stroke-width="1"/>
+   <text x="727" y="192" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_ITEM</text>
+   <text x="727" y="205" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_EDITORA</text>
+   <text x="727" y="218" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_AUTOR</text>
+   <text x="727" y="231" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_GENERO</text>
+   <text x="727" y="244" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TITULO</text>
+   <text x="727" y="257" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ANO_PUBLICACAO</text>
+   <text x="727" y="270" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IND_TIPO</text>
+   <text x="727" y="283" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">QTD_DISPONIVEL</text>
+   <text x="727" y="296" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_PAGINAS</text>
+   <text x="727" y="309" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">IND_DISPONIVEL</text>
+   <text x="727" y="322" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DTH_CADASTRO</text>
+   <text x="829" y="192" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="829" y="205" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="829" y="218" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="829" y="231" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="829" y="244" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(255)</text>
+   <text x="829" y="257" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="829" y="270" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR(1)</text>
+   <text x="829" y="283" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="829" y="296" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="829" y="309" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(1)</text>
+   <text x="829" y="322" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">TIMESTAMP</text>
+   <text x="916" y="192" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="916" y="205" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk1&gt;</text>
+   <text x="916" y="218" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk2&gt;</text>
+   <text x="916" y="231" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk3&gt;</text>
+   <rect x="850" y="397" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient11" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="850" y="397" fill="url(#Gradient11)" width="271" height="110" stroke="#0080c0" stroke-width="1"/>
+   <text x="985" y="408" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TB_REVISTA</text>
+   <line x1="850" x2="1121" y1="414" y2="414" stroke="#0080c0" stroke-width="1"/>
+   <text x="854" y="423" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">ID_REVISTA</text>
+   <text x="854" y="436" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ID_ITEM</text>
+   <text x="854" y="449" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">ISSN</text>
+   <text x="854" y="462" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">FREQUENCIA_PUBLICACAO</text>
+   <text x="854" y="475" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUM_EDICAO</text>
+   <text x="854" y="488" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VOLUME</text>
+   <text x="854" y="501" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">DESCRICAO</text>
+   <text x="1000" y="423" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">NUMBER</text>
+   <text x="1000" y="436" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="1000" y="449" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(20)</text>
+   <text x="1000" y="462" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(50)</text>
+   <text x="1000" y="475" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="1000" y="488" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">NUMBER</text>
+   <text x="1000" y="501" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">VARCHAR2(200)</text>
+   <text x="1087" y="423" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="1087" y="436" fill="#000000" font-size="8" font-family="'Arial Unicode MS','Arial'">&lt;fk&gt;</text>
 </svg>
