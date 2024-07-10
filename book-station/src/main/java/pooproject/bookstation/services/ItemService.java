@@ -13,7 +13,7 @@ import pooproject.bookstation.repositories.ItemRepository;
 public class ItemService {
     private final ItemRepository itemRepository;
 
-    public ItemResponseDTO getItemDetail(Integer itemId){
+    public ItemResponseDTO getItemDetail(String itemId){
         Item item = this.itemRepository.findById(itemId).orElseThrow(() -> new RuntimeException("Item not found with ID: "+itemId));
         return new ItemResponseDTO(item);
     }
@@ -45,7 +45,7 @@ public class ItemService {
         return new ItemIdDTO(newItem.getIdItem());
     }
 
-    public void deleteItem(Integer idItem){
+    public void deleteItem(String idItem){
         Item item = this.itemRepository.findById(idItem).orElseThrow(() -> new RuntimeException("Item not found with ID: "+idItem));;
         this.itemRepository.delete(item);
     }

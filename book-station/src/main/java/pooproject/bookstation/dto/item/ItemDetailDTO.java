@@ -8,7 +8,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
 public record ItemDetailDTO(
-    Integer idItem,
+    String idItem,
     Editora idEditora,
     Autor idAutor,
     Genero idGenero,

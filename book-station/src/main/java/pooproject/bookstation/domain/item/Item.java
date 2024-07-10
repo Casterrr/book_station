@@ -24,9 +24,9 @@ import java.time.LocalDateTime;
 public class Item {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID_ITEM", nullable = true)
-    private Integer idItem;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "ID_ITEM", nullable = false)
+    private String idItem;
 
     @ManyToOne
     @JoinColumn(name = "ID_EDITORA")

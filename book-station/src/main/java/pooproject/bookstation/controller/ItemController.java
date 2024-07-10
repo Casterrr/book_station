@@ -16,7 +16,7 @@ public class ItemController {
 
     private final ItemService service;
     @GetMapping("/{itemId}")
-    public ResponseEntity<ItemResponseDTO> getItem(@PathVariable Integer itemId){
+    public ResponseEntity<ItemResponseDTO> getItem(@PathVariable String itemId){
         ItemResponseDTO item = this.service.getItemDetail(itemId);
         return ResponseEntity.ok(item);
     };

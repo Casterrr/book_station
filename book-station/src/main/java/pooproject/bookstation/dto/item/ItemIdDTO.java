@@ -1,4 +1,4 @@
 package pooproject.bookstation.dto.item;
 
-public record ItemIdDTO(Integer itemID) {
+public record ItemIdDTO(String itemID) {
 }
