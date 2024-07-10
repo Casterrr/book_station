@@ -1,6 +1,10 @@
 package pooproject.bookstation.domain.item;
 
 import jakarta.persistence.*;
+//import jakarta.persistence.Entity;
+//import jakarta.persistence.GeneratedValue;
+//import jakarta.persistence.Id;
+//import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,7 +25,7 @@ public class Item {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID_ITEM", nullable = false)
+    @Column(name = "ID_ITEM", nullable = true)
     private Integer idItem;
 
     @ManyToOne

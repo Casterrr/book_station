@@ -1,4 +1,4 @@
-SET DATABASE UNIQUE NAME HSQLDB908A96A826
+SET DATABASE UNIQUE NAME HSQLDB9098FF7137
 SET DATABASE DEFAULT RESULT MEMORY ROWS 0
 SET DATABASE EVENT LOG LEVEL 0
 SET DATABASE TRANSACTION CONTROL LOCKS
@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 376
+SET FILES CHECK 2515
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -58,15 +58,15 @@ GRANT DBA TO SA
 SET SCHEMA SYSTEM_LOBS
 INSERT INTO BLOCKS VALUES(0,2147483647,0)
 SET SCHEMA PUBLIC
-INSERT INTO "flyway_schema_history" VALUES(1,'1','create-table-editora','SQL','V1__create-table-editora.sql',-2114550117,'SA','2024-07-06 21:27:27.902444',2,'1')
-INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-autor','SQL','V2__create-table-autor.sql',1897438020,'SA','2024-07-06 21:27:27.916444',1,'1')
-INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-genero','SQL','V3__create-table-genero.sql',632173425,'SA','2024-07-06 21:27:27.925449',1,'1')
-INSERT INTO "flyway_schema_history" VALUES(4,'4','create-table-item','SQL','V4__create-table-item.sql',-405817341,'SA','2024-07-06 21:27:27.941450',3,'1')
-INSERT INTO "flyway_schema_history" VALUES(5,'5','create-table-livro','SQL','V5__create-table-livro.sql',-395751295,'SA','2024-07-06 21:27:27.957986',3,'1')
-INSERT INTO "flyway_schema_history" VALUES(6,'6','create-table-revista','SQL','V6__create-table-revista.sql',-1827637058,'SA','2024-07-06 21:27:27.975987',4,'1')
-INSERT INTO "flyway_schema_history" VALUES(7,'7','create-table-usuario','SQL','V7__create-table-usuario.sql',-1417784351,'SA','2024-07-06 21:27:27.992989',3,'1')
-INSERT INTO "flyway_schema_history" VALUES(8,'8','create-table-emprestimo','SQL','V8__create-table-emprestimo.sql',-427167898,'SA','2024-07-06 21:27:28.007990',4,'1')
-INSERT INTO "flyway_schema_history" VALUES(9,'9','create-table-reserva','SQL','V9__create-table-reserva.sql',2102759312,'SA','2024-07-06 21:27:28.023991',2,'1')
-INSERT INTO "flyway_schema_history" VALUES(10,'10','create-table-funcionario','SQL','V10__create-table-funcionario.sql',1544289567,'SA','2024-07-06 21:27:28.038997',2,'1')
-INSERT INTO "flyway_schema_history" VALUES(11,'11','create-table-locatario','SQL','V11__create-table-locatario.sql',-2001836764,'SA','2024-07-06 21:27:28.047994',1,'1')
-INSERT INTO "flyway_schema_history" VALUES(12,'12','alter-table-add-constraints','SQL','V12__alter-table-add-constraints.sql',1724142374,'SA','2024-07-06 21:27:28.058506',3,'1')
+INSERT INTO "flyway_schema_history" VALUES(1,'1','create-table-editora','SQL','V1__create-table-editora.sql',-2114550117,'SA','2024-07-09 16:36:36.338494',6,'1')
+INSERT INTO "flyway_schema_history" VALUES(2,'2','create-table-autor','SQL','V2__create-table-autor.sql',1897438020,'SA','2024-07-09 16:36:36.358821',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(3,'3','create-table-genero','SQL','V3__create-table-genero.sql',632173425,'SA','2024-07-09 16:36:36.381585',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(4,'4','create-table-item','SQL','V4__create-table-item.sql',-405817341,'SA','2024-07-09 16:36:36.395580',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(5,'5','create-table-livro','SQL','V5__create-table-livro.sql',-395751295,'SA','2024-07-09 16:36:36.412717',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(6,'6','create-table-revista','SQL','V6__create-table-revista.sql',-1827637058,'SA','2024-07-09 16:36:36.427081',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(7,'7','create-table-usuario','SQL','V7__create-table-usuario.sql',-1417784351,'SA','2024-07-09 16:36:36.439084',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(8,'8','create-table-emprestimo','SQL','V8__create-table-emprestimo.sql',-427167898,'SA','2024-07-09 16:36:36.453085',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(9,'9','create-table-reserva','SQL','V9__create-table-reserva.sql',2102759312,'SA','2024-07-09 16:36:36.471082',4,'1')
+INSERT INTO "flyway_schema_history" VALUES(10,'10','create-table-funcionario','SQL','V10__create-table-funcionario.sql',1544289567,'SA','2024-07-09 16:36:36.492095',2,'1')
+INSERT INTO "flyway_schema_history" VALUES(11,'11','create-table-locatario','SQL','V11__create-table-locatario.sql',-2001836764,'SA','2024-07-09 16:36:36.520610',4,'1')
+INSERT INTO "flyway_schema_history" VALUES(12,'12','alter-table-add-constraints','SQL','V12__alter-table-add-constraints.sql',1724142374,'SA','2024-07-09 16:36:36.554208',12,'1')
