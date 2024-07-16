@@ -15,12 +15,12 @@ import java.time.LocalDateTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Livro {
+public class Livro{
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "ID_LIVRO", nullable = false)
-    private Integer idLivro;
+    private String idLivro;
 
     @OneToOne
     @JoinColumn(name = "ID_ITEM")
@@ -35,6 +35,6 @@ public class Livro {
     @Column(name = "IDIOMA", nullable = false, length = 50)
     private String idioma;
 
-    @Column(name = "DTH_CADASTRO_LIVRO", nullable = false)
-    private LocalDateTime dataCadastroLivro;
+    //@Column(name = "DTH_CADASTRO_LIVRO", nullable = false)
+    //private LocalDateTime dataCadastroLivro;
 }

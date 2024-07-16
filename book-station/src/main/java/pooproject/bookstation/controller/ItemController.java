@@ -7,7 +7,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 import pooproject.bookstation.dto.item.ItemIdDTO;
 import pooproject.bookstation.dto.item.ItemRequestDTO;
 import pooproject.bookstation.dto.item.ItemResponseDTO;
+import pooproject.bookstation.dto.livro.LivroResponseDTO;
 import pooproject.bookstation.services.ItemService;
+import pooproject.bookstation.services.LivroService;
 
 @RestController
 @RequestMapping("/item")
@@ -15,13 +17,18 @@ import pooproject.bookstation.services.ItemService;
 public class ItemController {
 
     private final ItemService service;
+    private final LivroService livroService;
     @GetMapping("/{itemId}")
-    public ResponseEntity<ItemResponseDTO> getItem(@PathVariable String itemId){
+    public ResponseEntity<LivroResponseDTO> getItem(@PathVariable String itemId){
         ItemResponseDTO item = this.service.getItemDetail(itemId);
-        return ResponseEntity.ok(item);
+        //if (item.getItemDTO().indTipo().equals("L")){
+        LivroResponseDTO livro = this.livroService.getLivroDetail(itemId);
+        return ResponseEntity.ok(livro);
+        //}
+        //return ResponseEntity.ok(item);
     };
 
-    @PostMapping("/create-item")
+    //@PostMapping("/create-item")
     public ResponseEntity<ItemIdDTO> createItem(@RequestBody ItemRequestDTO body, UriComponentsBuilder uriComponentsBuilder){
         ItemIdDTO idDTO = this.service.createItem(body);
         var uri = uriComponentsBuilder.path("/events/{id}").buildAndExpand(idDTO.itemID()).toUri();

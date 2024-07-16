@@ -4,13 +4,12 @@ import pooproject.bookstation.domain.autor.Autor;
 import pooproject.bookstation.domain.editora.Editora;
 import pooproject.bookstation.domain.genero.Genero;
 
-import java.time.LocalDateTime;
 
 public record ItemRequestDTO(
         //Integer idItem,
-        Editora idEditora,
-        Autor idAutor,
-        Genero idGenero,
+        //Editora idEditora,
+        //Autor idAutor,
+        //Genero idGenero,
         String titulo,
         Integer anoPublicacao,
         String indTipo,

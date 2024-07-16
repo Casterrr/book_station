@@ -1,5 +1,7 @@
 package pooproject.bookstation.services;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import pooproject.bookstation.domain.item.Item;
@@ -11,7 +13,11 @@ import pooproject.bookstation.repositories.ItemRepository;
 @Service
 @RequiredArgsConstructor
 public class ItemService {
-    private final ItemRepository itemRepository;
+    protected final ItemRepository itemRepository;
+
+    //public ItemService(){
+        //itemRepository = null;
+    //}
 
     public ItemResponseDTO getItemDetail(String itemId){
         Item item = this.itemRepository.findById(itemId).orElseThrow(() -> new RuntimeException("Item not found with ID: "+itemId));
@@ -20,27 +26,15 @@ public class ItemService {
 
     public ItemIdDTO createItem(ItemRequestDTO itemDTO){
         Item newItem = new Item();
-        newItem.setEditora(itemDTO.idEditora());
-        //newItem.setIdItem(itemDTO.idItem());
-        System.out.println(itemDTO.idEditora());
-        newItem.setAutor(itemDTO.idAutor());
-        System.out.println((itemDTO.idAutor()));
-        newItem.setGenero(itemDTO.idGenero());
-        System.out.println(itemDTO.idGenero());
+        //newItem.setEditora(itemDTO.idEditora());
+        //newItem.setAutor(itemDTO.idAutor());
+        //newItem.setGenero(itemDTO.idGenero());
         newItem.setTitulo(itemDTO.titulo());
-        System.out.println(itemDTO.titulo());
         newItem.setAnoPublicacao(itemDTO.anoPublicacao());
-        System.out.println(itemDTO.anoPublicacao());
         newItem.setIndTipo(itemDTO.indTipo());
-        System.out.println(itemDTO.indTipo());
         newItem.setQuantidadeDisponivel(itemDTO.qtdDisponivel());
-        System.out.println(itemDTO.qtdDisponivel());
         newItem.setNumPaginas(itemDTO.numPaginas());
-        System.out.println(itemDTO.numPaginas());
         newItem.setDisponivel(itemDTO.indDisponivel());
-        System.out.println(itemDTO.indDisponivel());
-        System.out.println(newItem.getIdItem());
-        System.out.println(newItem);
         this.itemRepository.save(newItem);
         return new ItemIdDTO(newItem.getIdItem());
     }
