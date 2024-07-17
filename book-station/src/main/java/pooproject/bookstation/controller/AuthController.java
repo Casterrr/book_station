@@ -38,44 +38,59 @@ public class AuthController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private AuthenticationManager authenticationManager;
+
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest) {
         try {
-            System.out.println("Tentativa de login para usuário: " + loginRequest.getEmail());
-
-            // Debug: List all users in the database
-            List<Usuario> allUsers = usuarioRepository.findAll();
-            System.out.println("Total users in database: " + allUsers.size());
-            for (Usuario u : allUsers) {
-                System.out.println("User: " + u.getNomeUsuario() + ", Email: " + u.getEmailUsuario());
-            }
-
-            Usuario usuario = usuarioRepository.findByEmailUsuario(loginRequest.getEmail());
-
-            if (usuario == null) {
-                System.out.println("Usuário não encontrado no banco de dados: " + loginRequest.getEmail());
-                return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Usuário não encontrado");
-            }
-
-            System.out.println("Usuário encontrado: " + usuario.getEmailUsuario());
-
-            // Verificar a senha
-            if (passwordEncoder.matches(loginRequest.getPassword(), usuario.getSenhaUsuario())) {
-                System.out.println("Senha correta para usuário: " + loginRequest.getEmail());
-
-                // Gerar token JWT
-                String jwt = jwtUtil.generateToken(usuario);
-
-                return ResponseEntity
-                        .ok(new LoginResponse(jwt, usuario.getNomeUsuario(), usuario.getEmailUsuario()));
-            } else {
-                System.out.println("Senha incorreta para usuário: " + loginRequest.getEmail());
-                return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Senha inválida");
-            }
+            Usuario usuario = findAndValidateUser(loginRequest.getEmail());
+            validatePassword(loginRequest.getPassword(), usuario);
+            String jwt = generateJwtToken(usuario);
+            return createSuccessResponse(jwt, usuario);
+        } catch (AuthenticationException e) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(e.getMessage());
         } catch (Exception e) {
-            System.out.println("Erro inesperado durante o login: " + e.getMessage());
-            e.printStackTrace();
+            logUnexpectedError(e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Ocorreu um erro durante o login");
+        }
+    }
+
+    private Usuario findAndValidateUser(String email) throws AuthenticationException {
+        Usuario usuario = usuarioRepository.findByEmailUsuario(email);
+        if (usuario == null) {
+            System.out.println("Usuário não encontrado no banco de dados: " + email);
+            throw new AuthenticationException("Usuário não encontrado");
+        }
+        System.out.println("Usuário encontrado: " + usuario.getEmailUsuario());
+        return usuario;
+    }
+
+    private void validatePassword(String rawPassword, Usuario usuario) throws AuthenticationException {
+        if (!passwordEncoder.matches(rawPassword, usuario.getSenhaUsuario())) {
+            System.out.println("Senha incorreta para usuário: " + usuario.getEmailUsuario());
+            throw new AuthenticationException("Senha inválida");
+        }
+        System.out.println("Senha correta para usuário: " + usuario.getEmailUsuario());
+    }
+
+    private String generateJwtToken(Usuario usuario) {
+        return jwtUtil.generateToken(usuario);
+    }
+
+    private ResponseEntity<?> createSuccessResponse(String jwt, Usuario usuario) {
+        return ResponseEntity.ok(new LoginResponse(jwt, usuario.getNomeUsuario(), usuario.getEmailUsuario()));
+    }
+
+    private void logUnexpectedError(Exception e) {
+        System.out.println("Erro inesperado durante o login: " + e.getMessage());
+        e.printStackTrace();
+    }
+
+    // Custom exception class
+    private static class AuthenticationException extends Exception {
+        public AuthenticationException(String message) {
+            super(message);
         }
     }
 
