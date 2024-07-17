@@ -1,11 +1,12 @@
 package pooproject.bookstation.repositories;
 
-import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import pooproject.bookstation.domain.usuario.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, String> {
-    Optional<Usuario> findByEmailUsuario(String emailUsuario);
+    Usuario findByNomeUsuario(String nomeUsuario);
+
+    Usuario findByEmailUsuario(String emailUsuario);
 
     boolean existsByEmailUsuario(String emailUsuario);
 }

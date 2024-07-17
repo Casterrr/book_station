@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 46522
+SET FILES CHECK 94633
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -71,4 +71,7 @@ INSERT INTO "flyway_schema_history" VALUES(10,'10','create-table-funcionario','S
 INSERT INTO "flyway_schema_history" VALUES(11,'11','create-table-locatario','SQL','V11__create-table-locatario.sql',-2001836764,'SA','2024-07-16 19:09:07.390097',1,'1')
 INSERT INTO "flyway_schema_history" VALUES(12,'12','alter-table-add-constraints','SQL','V12__alter-table-add-constraints.sql',1724142374,'SA','2024-07-16 19:09:07.400095',2,'1')
 INSERT INTO "flyway_schema_history" VALUES(13,'13','alter usuario id to uuid','SQL','V13__alter_usuario_id_to_uuid.sql',977410273,'SA','2024-07-16 21:40:45.687779',8,'1')
+INSERT INTO TB_USUARIO VALUES('5fb5c236-c021-4b8e-a395-b11c74bf2631','New User','newuser1@example.com','$2a$10$LXWRDva9cLeXYemPmbQ/.uZQreMQgCEXCQePppl49GKvxkwLs/Eti','2024-07-16 21:49:19.003418')
+INSERT INTO TB_USUARIO VALUES('711d1c81-26a4-452c-b3ed-50dea6b2a1b9','New User','newuser2@example.com','$2a$10$10FD/ZRnT07bCHqUDOHtN.iOm6sanwlLcbdA.GYkNh8jjJ6o3yd6G','2024-07-16 21:58:28.519753')
+INSERT INTO TB_USUARIO VALUES('9622197a-1e02-409f-8e37-e6bbd6de7445','New User','newusersass@example.com','$2a$10$cTXk/nW5S4BMzpHAcaWVW.fKpthH6PQ/JEyQj5SL0WvWG9HbC4li2','2024-07-16 22:28:44.633592')
 INSERT INTO TB_USUARIO VALUES('b9e6a3bd-c8b7-441e-969b-8e7998e01bf9','New User','newuser@example.com','$2a$10$A3WGpkMta4gGfX9ws9xwdezOmrsSqzb3TBvabyD0M1E5TTekAp5c2','2024-07-16 21:41:03.641767')

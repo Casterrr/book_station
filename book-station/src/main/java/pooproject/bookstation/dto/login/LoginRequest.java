@@ -1,12 +1,12 @@
 package pooproject.bookstation.dto.login;
 
 public class LoginRequest {
-    private String username;
+    private String email;
     private String password;
 
     // Getters
-    public String getUsername() {
-        return username;
+    public String getEmail() {
+        return email;
     }
 
     public String getPassword() {
@@ -14,8 +14,8 @@ public class LoginRequest {
     }
 
     // Setters (optional, depending on your needs)
-    public void setUsername(String username) {
-        this.username = username;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void setPassword(String password) {
