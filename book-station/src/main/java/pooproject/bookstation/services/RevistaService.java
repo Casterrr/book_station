@@ -42,4 +42,20 @@ public class RevistaService {
 
         return new RevistaIdDTO(revista.getIdRevista());
     }
+
+    public RevistaIdDTO updateRevista(RequestRevistaDTO revistaDTO, String idRevista){
+        Revista revista = getRevista(idRevista);
+        revista.setIssn(revistaDTO.issn());
+        revista.setFrequenciaPublicacao(revistaDTO.frequenciaPublicacao());
+        revista.setVolume(revistaDTO.volume());
+        revista.setNumEdicao(revistaDTO.numEdicao());
+        revista.setDescricao(revistaDTO.descricao());
+        this.revistaRepository.save(revista);
+        return new RevistaIdDTO(revista.getIdRevista());
+    }
+
+    public Revista getRevista(String idRevista){
+        Revista revista = revistaRepository.findById(idRevista).orElseThrow(() -> new RuntimeException("Revista not found with ID: "+idRevista));;
+        return revista;
+    }
 }
