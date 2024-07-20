@@ -16,9 +16,9 @@ import pooproject.bookstation.domain.item.Item;
 public class Revista {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "ID_REVISTA", nullable = false)
-    private Integer idRevista;
+    private String idRevista;
 
     @OneToOne
     @JoinColumn(name = "ID_ITEM")

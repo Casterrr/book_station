@@ -1,6 +1,10 @@
 package pooproject.bookstation.domain.item;
 
 import jakarta.persistence.*;
+//import jakarta.persistence.Entity;
+//import jakarta.persistence.GeneratedValue;
+//import jakarta.persistence.Id;
+//import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,9 +24,9 @@ import java.time.LocalDateTime;
 public class Item {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "ID_ITEM", nullable = false)
-    private Integer idItem;
+    private String idItem;
 
     @ManyToOne
     @JoinColumn(name = "ID_EDITORA")
