@@ -1,4 +1,4 @@
 package pooproject.bookstation.dto.revista;
 
-public record RevistaIdDTO(String idRevista) {
+public record RevistaIdDTO(String idItem, String idRevista) {
 }

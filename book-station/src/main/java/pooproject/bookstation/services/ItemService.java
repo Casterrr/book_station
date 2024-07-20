@@ -15,10 +15,6 @@ import pooproject.bookstation.repositories.ItemRepository;
 public class ItemService {
     protected final ItemRepository itemRepository;
 
-    //public ItemService(){
-        //itemRepository = null;
-    //}
-
     public ItemResponseDTO getItemDetail(String itemId){
         Item item = this.itemRepository.findById(itemId).orElseThrow(() -> new RuntimeException("Item not found with ID: "+itemId));
         return new ItemResponseDTO(item);
@@ -39,8 +35,16 @@ public class ItemService {
         return new ItemIdDTO(newItem.getIdItem());
     }
 
-    public void deleteItem(String idItem){
-        Item item = this.itemRepository.findById(idItem).orElseThrow(() -> new RuntimeException("Item not found with ID: "+idItem));;
-        this.itemRepository.delete(item);
+    public int deleteItem(String idItem){
+        try {
+            Item item = this.itemRepository.findById(idItem).orElseThrow(() -> new RuntimeException("Item not found with ID: "+idItem));;
+            this.itemRepository.delete(item);
+            return 200;
+        }catch (RuntimeException e){
+            return 404;
+        } catch (Exception e){
+            return 500;
+        }
+
     }
 }

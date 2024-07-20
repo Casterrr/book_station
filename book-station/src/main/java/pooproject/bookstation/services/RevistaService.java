@@ -40,7 +40,7 @@ public class RevistaService {
         revista.setDescricao(revistaDTO.descricao());
         this.revistaRepository.save(revista);
 
-        return new RevistaIdDTO(revista.getIdRevista());
+        return new RevistaIdDTO(revista.getItem().getIdItem(), revista.getIdRevista());
     }
 
     public RevistaIdDTO updateRevista(RequestRevistaDTO revistaDTO, String idRevista){
@@ -51,7 +51,7 @@ public class RevistaService {
         revista.setNumEdicao(revistaDTO.numEdicao());
         revista.setDescricao(revistaDTO.descricao());
         this.revistaRepository.save(revista);
-        return new RevistaIdDTO(revista.getIdRevista());
+        return new RevistaIdDTO(revista.getItem().getIdItem(), revista.getIdRevista());
     }
 
     public Revista getRevista(String idRevista){
