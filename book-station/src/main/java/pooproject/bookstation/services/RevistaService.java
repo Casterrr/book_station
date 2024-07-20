@@ -55,7 +55,7 @@ public class RevistaService {
     }
 
     public Revista getRevista(String idRevista){
-        Revista revista = revistaRepository.findById(idRevista).orElseThrow(() -> new RuntimeException("Revista not found with ID: "+idRevista));;
+        Revista revista = revistaRepository.findById(idRevista).orElseThrow(() -> new RuntimeException("Revista not found with ID: "+idRevista));
         return revista;
     }
 }

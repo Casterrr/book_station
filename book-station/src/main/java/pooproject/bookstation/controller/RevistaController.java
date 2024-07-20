@@ -31,7 +31,7 @@ public class RevistaController {
     @PutMapping("/atualizar-revista/{idRevista}")
     public ResponseEntity<UpdateAPIResponse> updateRevista(@RequestBody RequestRevistaDTO body, @PathVariable String idRevista){
         RevistaIdDTO revistaIdDTO = this.service.updateRevista(body, idRevista);
-        UpdateAPIResponse response = new UpdateAPIResponse("Update success!", revistaIdDTO.idRevista());
+        UpdateAPIResponse response = new UpdateAPIResponse("Magazine update success!", revistaIdDTO.idRevista());
         return  ResponseEntity.ok(response);
     }
 }

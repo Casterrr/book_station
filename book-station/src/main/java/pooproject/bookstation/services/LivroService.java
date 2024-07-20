@@ -25,7 +25,7 @@ public class LivroService{
         return new LivroResponseDTO(livro);
     }
 
-    public ItemIdDTO createLivro(LivroRequestDTO livroDTO){
+    public LivroIdDTO createLivro(LivroRequestDTO livroDTO){
         Item newItem = new Item();
         Livro newLivro= new Livro();
         //newItem.setEditora(livroDTO.item().idEditora());
@@ -45,6 +45,20 @@ public class LivroService{
         newLivro.setIdioma(livroDTO.idioma());
         this.livroRepository.save(newLivro);
         //System.out.println("Salvou livro");
-        return new ItemIdDTO(newItem.getIdItem());
+        return new LivroIdDTO(newItem.getIdItem(), newLivro.getIdLivro());
+    }
+
+    public LivroIdDTO updateLivro(LivroRequestDTO livroDTO, String idLivro){
+        Livro livro = getLivro(idLivro);
+        livro.setIdioma(livroDTO.idioma());
+        livro.setSinopse(livroDTO.sinopse());
+        livro.setNumISBN(livroDTO.numISBN());
+        this.livroRepository.save(livro);
+        return new LivroIdDTO(livro.getItem().getIdItem(), livro.getIdLivro());
+    }
+
+    public Livro getLivro(String idLivro){
+        Livro livro = this.livroRepository.findById(idLivro).orElseThrow(() -> new RuntimeException("Livro not found with ID: "+idLivro));
+        return livro;
     }
 }

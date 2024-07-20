@@ -2,11 +2,11 @@ package pooproject.bookstation.APIResponse;
 
 public class UpdateAPIResponse {
     private String message;
-    private String data;
+    private String id;
 
     public UpdateAPIResponse(String message,  String data) {
         this.message = message;
-        this.data = data;
+        this.id = data;
     }
 
 
@@ -19,10 +19,10 @@ public class UpdateAPIResponse {
     }
 
     public Object getData() {
-        return data;
+        return id;
     }
 
     public void setData(String data) {
-        this.data = data;
+        this.id = data;
     }
 }
