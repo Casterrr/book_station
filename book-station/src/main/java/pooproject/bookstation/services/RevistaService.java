@@ -5,8 +5,11 @@ import org.springframework.stereotype.Service;
 import pooproject.bookstation.domain.item.Item;
 import pooproject.bookstation.domain.livro.Livro;
 import pooproject.bookstation.domain.revista.Revista;
+import pooproject.bookstation.dto.livro.LivroResponseDTO;
 import pooproject.bookstation.dto.revista.RequestRevistaDTO;
+import pooproject.bookstation.dto.revista.RevistaDetailDTO;
 import pooproject.bookstation.dto.revista.RevistaIdDTO;
+import pooproject.bookstation.dto.revista.RevistaResponseDTO;
 import pooproject.bookstation.repositories.ItemRepository;
 import pooproject.bookstation.repositories.RevistaRepository;
 
@@ -57,5 +60,10 @@ public class RevistaService {
     public Revista getRevista(String idRevista){
         Revista revista = revistaRepository.findById(idRevista).orElseThrow(() -> new RuntimeException("Revista not found with ID: "+idRevista));
         return revista;
+    }
+
+    public RevistaResponseDTO getRevistaDetails(String idItem){
+        Revista revista = this.revistaRepository.findByItemIdItem(idItem).orElseThrow(() -> new RuntimeException("Revista not found with ID: "+idItem));
+        return new RevistaResponseDTO(revista);
     }
 }

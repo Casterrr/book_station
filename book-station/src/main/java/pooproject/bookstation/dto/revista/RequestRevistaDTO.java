@@ -1,5 +1,6 @@
 package pooproject.bookstation.dto.revista;
 
+import pooproject.bookstation.domain.item.Item;
 import pooproject.bookstation.dto.item.ItemRequestDTO;
 
 public record RequestRevistaDTO(
