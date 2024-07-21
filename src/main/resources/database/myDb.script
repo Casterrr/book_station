@@ -29,7 +29,7 @@ SET FILES NIO TRUE
 SET FILES NIO SIZE 256
 SET FILES LOG TRUE
 SET FILES LOG SIZE 50
-SET FILES CHECK 1102
+SET FILES CHECK 2258
 SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
 CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
 ALTER USER SA SET LOCAL TRUE
@@ -70,12 +70,20 @@ INSERT INTO "flyway_schema_history" VALUES(9,'9','create-table-reserva','SQL','V
 INSERT INTO "flyway_schema_history" VALUES(10,'10','create-table-funcionario','SQL','V10__create-table-funcionario.sql',1544289567,'SA','2024-07-17 17:39:48.661715',2,'1')
 INSERT INTO "flyway_schema_history" VALUES(11,'11','create-table-locatario','SQL','V11__create-table-locatario.sql',-2001836764,'SA','2024-07-17 17:39:48.682800',3,'1')
 INSERT INTO "flyway_schema_history" VALUES(12,'12','alter-table-add-constraints','SQL','V12__alter-table-add-constraints.sql',1724142374,'SA','2024-07-17 17:39:48.708424',9,'1')
+INSERT INTO TB_ITEM VALUES('4a38eb02-8b1a-412b-a077-4dd0ae914754',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-20 22:13:34.151138')
 INSERT INTO TB_ITEM VALUES('4b7c6b8f-3eca-4807-ba45-c88a4f23e770',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-20 12:54:56.367139')
 INSERT INTO TB_ITEM VALUES('522f7f6a-0180-4bcf-8f9d-5b3e485f4472',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-17 17:46:21.631828')
 INSERT INTO TB_ITEM VALUES('62fb1c92-8727-4a14-bc10-c7c76223c954',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-20 15:22:13.962219')
+INSERT INTO TB_ITEM VALUES('815601c2-e1ec-4b6e-a5a1-5cc20a8b43d7',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-20 15:32:41.990057')
+INSERT INTO TB_ITEM VALUES('9af272ff-c49b-4af6-9adb-0fb9e7870d29',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-20 22:32:31.335387')
 INSERT INTO TB_ITEM VALUES('d4504ebe-489a-4123-bd5f-57b9317e9729',NULL,NULL,NULL,'Turma da M\u00f4nica',200,'R',10,50,'S','2024-07-17 17:47:34.299837')
 INSERT INTO TB_ITEM VALUES('df2d871b-d141-444a-8272-0c23ab913fe3',NULL,NULL,NULL,'Clean Code',1994,'L',10,300,'S','2024-07-20 13:48:51.012035')
+INSERT INTO TB_ITEM VALUES('ec1d92be-67d9-49c2-ab42-d3e408f1fc56',NULL,NULL,NULL,'Clean Code',1994,'L',10,300,'S','2024-07-20 21:44:57.093138')
+INSERT INTO TB_LIVRO VALUES('831c4744-1da2-4c8f-8a81-6ebbf57f52f9','ec1d92be-67d9-49c2-ab42-d3e408f1fc56','A','Boas pr\u00e1ticas de programa\u00e7\u00e3o','Ingles')
 INSERT INTO TB_LIVRO VALUES('f6e2b79c-4063-4ca6-ad9c-f7473328e9ed','df2d871b-d141-444a-8272-0c23ab913fe3','A','Boas pr\u00e1ticas de programa\u00e7\u00e3o','Ingles')
+INSERT INTO TB_REVISTA VALUES('0d52e7ed-d4a6-49c9-a60b-a4bc3a58ba1a','4a38eb02-8b1a-412b-a077-4dd0ae914754','Abiue38e','Desconhecida',3,2,'Turma da M\u00f4nica em: os amiguinhos')
 INSERT INTO TB_REVISTA VALUES('22f21810-4ae8-4fe5-ae91-4db46e3216c2','62fb1c92-8727-4a14-bc10-c7c76223c954','Abiue38e','Desconhecida',3,2,'Turma da M\u00f4nica em: os amiguinhos')
 INSERT INTO TB_REVISTA VALUES('2b7a74a9-2128-4b81-ab1c-00098e6c1097','d4504ebe-489a-4123-bd5f-57b9317e9729','Abiue38e','Desconhecida',3,2,'Turma da M\u00f4nica em: os amiguinhos')
+INSERT INTO TB_REVISTA VALUES('9e2bea16-5bb2-4ffe-bb8e-f5dec2728a56','9af272ff-c49b-4af6-9adb-0fb9e7870d29','Abiue38e','Desconhecida',3,2,'Turma da M\u00f4nica em: os amiguinhos')
+INSERT INTO TB_REVISTA VALUES('b6c943c4-f2be-40fa-b418-ad9b4cbedb34','815601c2-e1ec-4b6e-a5a1-5cc20a8b43d7','Abiue38e','Desconhecida',3,2,'Turma da M\u00f4nica em: Cebolinha e m\u00f4nica')
 INSERT INTO TB_REVISTA VALUES('c97f6290-69b9-4fe9-8326-11ac64c2bb7b','4b7c6b8f-3eca-4807-ba45-c88a4f23e770','Abiue38e','Desconhecida',3,2,'Turma da M\u00f4nica em: Cebolinha e m\u00f4nica')

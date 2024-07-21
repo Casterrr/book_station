@@ -10,8 +10,10 @@ import pooproject.bookstation.dto.item.ItemIdDTO;
 import pooproject.bookstation.dto.item.ItemRequestDTO;
 import pooproject.bookstation.dto.item.ItemResponseDTO;
 import pooproject.bookstation.dto.livro.LivroResponseDTO;
+import pooproject.bookstation.dto.revista.RevistaResponseDTO;
 import pooproject.bookstation.services.ItemService;
 import pooproject.bookstation.services.LivroService;
+import pooproject.bookstation.services.RevistaService;
 
 @RestController
 @RequestMapping("/item")
@@ -20,11 +22,20 @@ public class ItemController {
 
     private final ItemService service;
     private final LivroService livroService;
+    private final RevistaService revistaService;
     @GetMapping("/{itemId}")
-    public ResponseEntity<LivroResponseDTO> getItem(@PathVariable String itemId){
-        ItemResponseDTO item = this.service.getItemDetail(itemId);
-        LivroResponseDTO livro = this.livroService.getLivroDetail(itemId);
-        return ResponseEntity.ok(livro);
+    public ResponseEntity<?> getItem(@PathVariable String itemId){
+        ItemResponseDTO itemResponseDTO = this.service.getItemDetail(itemId);
+        if (itemResponseDTO.getItemDTO().indTipo().equals("L")){
+            LivroResponseDTO livro = this.livroService.getLivroDetail(itemId);
+            return ResponseEntity.ok(livro);
+        } else if (itemResponseDTO.getItemDTO().indTipo().equals("R")) {
+            RevistaResponseDTO revista = this.revistaService.getRevistaDetails(itemId);
+            return ResponseEntity.ok(revista);
+        }
+        else{
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Item not found");
+        }
     };
 
     //@PostMapping("/create-item")

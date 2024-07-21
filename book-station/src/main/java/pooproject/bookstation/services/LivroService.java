@@ -12,16 +12,16 @@ import pooproject.bookstation.dto.livro.LivroResponseDTO;
 import pooproject.bookstation.repositories.ItemRepository;
 import pooproject.bookstation.repositories.LivroRepository;
 
+import java.util.Optional;
+
 @Service
 @RequiredArgsConstructor
 public class LivroService{
     private final LivroRepository livroRepository;
     private final ItemRepository itemRepository;
 
-    public LivroResponseDTO getLivroDetail(String livroId){
-        //this.livroRepository.getReferenceById()
-        //Livro livro = this.livroRepository.findById(livroId).orElseThrow(() -> new RuntimeException("Livro not found with ID: "+livroId));
-        Livro livro = this.livroRepository.getReferenceById(livroId);
+    public LivroResponseDTO getLivroDetail(String idItem){
+        Livro livro = this.livroRepository.findByItemIdItem(idItem).orElseThrow(() -> new RuntimeException("Livro not found with ID: "+idItem));
         return new LivroResponseDTO(livro);
     }
 
@@ -44,7 +44,6 @@ public class LivroService{
         newLivro.setSinopse(livroDTO.sinopse());
         newLivro.setIdioma(livroDTO.idioma());
         this.livroRepository.save(newLivro);
-        //System.out.println("Salvou livro");
         return new LivroIdDTO(newItem.getIdItem(), newLivro.getIdLivro());
     }
 
